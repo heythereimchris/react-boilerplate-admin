@@ -6,24 +6,10 @@ import logo from "../assets/logo.png";
 const Footer = () => (
   <FooterContainer>
     <div className="developed">
-      {`Developed by `}
-      <a href="https://ramonak.io" target="_blank" rel="noopener noreferrer">
-        <div className="logo-container">
-          <img src={logo} alt="Logo" />
-        </div>
-        {`Katsiaryna (Kate) Lupachova`}
-      </a>
+      {`Made in California `}
+      
     </div>
-    <div className="source">
-      <a
-        href="https://github.com/KaterinaLupacheva/react-google-analytics-dashboard"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GoMarkGithub />
-        {`Source `}
-      </a>
-    </div>
+    
   </FooterContainer>
 );
 
